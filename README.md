@@ -1,69 +1,84 @@
-# React + TypeScript + Vite
+Frontend Mentor - Space Tourism Website Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**Overview
+The challenge**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Users should be able to:
 
-## Expanding the ESLint configuration
+View the optimal layout for each of the website's pages depending on their device's screen size
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+See hover states for all interactive elements on the page
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+View each page and be able to toggle between the tabs to see new information
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Links**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Solution URL: https://github.com/Geminawii/Space-Tourism-ASA.git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Live Site URL: https://space-tourism-asa.netlify.app/
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+My process
+Built with:
+
+-React (functional components and hooks)
+
+-Tailwind CSS for utility-first styling
+
+-React Router for navigation
+
+-Responsive design with mobile-first approach
+
+-CSS Grid & Flexbox for layouts
+
+**What I learned**
+
+-How to structure a multi-page React app with clean navigation and dynamic content updates.
+
+-Managing state effectively to switch between tabs and update content dynamically.
+
+-Advanced Tailwind techniques to handle responsive images and layouts, including using the <picture> element for responsive images.
+
+-Implementing smooth interactive UI elements like active states, hover effects, and transitions.
+
+Example code snippet of dynamic tab buttons with active styles:
+
+<button
+  key={t.name}
+  onClick={() => setActive(t)}
+  className={`h-12 w-12 rounded-full border text-lg font-belle font-bold transition flex items-center justify-center ${
+    active.name === t.name
+      ? "bg-white text-black"
+      : "border-gray-500 text-white hover:bg-gray-500/30"
+  }`}
+>
+  {index + 1}
+</button>
+
+**Continued development**
+
+-Improve accessibility (ARIA roles, keyboard navigation) for better inclusivity.
+
+-Add animations and transitions for smoother user experience.
+
+-Optimize images further for faster loading and performance improvements.
+
+-Work better with images as backgrounds.
+
+**Useful resources**
+
+Tailwind CSS Documentation
+ — Essential for building responsive, utility-first styles.
+
+React Router Docs
+ — Helpful for handling routing in React apps.
+
+MDN Web Docs - <picture> Element
+ — Guided me on serving responsive images.
+
+
+Author
+
+Website - Oluwatiseteminire Coker
+
