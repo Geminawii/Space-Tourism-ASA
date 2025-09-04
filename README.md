@@ -1,49 +1,40 @@
-Frontend Mentor - Space Tourism Website Solution
+# Frontend Mentor - Space Tourism Website Solution
 
+## Overview
 
-**Overview
-The challenge**
+### The challenge
 
-##Users should be able to:
+Users should be able to:
 
-View the optimal layout for each of the website's pages depending on their device's screen size
+- View the optimal layout for each of the website's pages depending on their device's screen size.
+- See hover states for all interactive elements on the page.
+- View each page and be able to toggle between the tabs to see new information.
 
-See hover states for all interactive elements on the page
+## Links
 
-View each page and be able to toggle between the tabs to see new information
+- **Solution URL:** [GitHub Repo](https://github.com/Geminawii/Space-Tourism-ASA.git)
+- **Live Site URL:** [Live Demo](https://space-tourism-asa.netlify.app/)
 
+## My Process
 
-**Links**
+### Built With
 
-Solution URL: https://github.com/Geminawii/Space-Tourism-ASA.git
+- React (functional components and hooks)
+- Tailwind CSS for utility-first styling
+- React Router for navigation
+- Responsive design with mobile-first approach
+- CSS Grid & Flexbox for layouts
 
-Live Site URL: https://space-tourism-asa.netlify.app/
+### What I Learned
 
-My process
-Built with:
+- How to structure a multi-page React app with clean navigation and dynamic content updates.
+- Managing state effectively to switch between tabs and update content dynamically.
+- Advanced Tailwind techniques to handle responsive images and layouts, including using the `<picture>` element for responsive images.
+- Implementing smooth interactive UI elements like active states, hover effects, and transitions.
 
--React (functional components and hooks)
+Here is an example code snippet of dynamic tab buttons with active styles:
 
--Tailwind CSS for utility-first styling
-
--React Router for navigation
-
--Responsive design with mobile-first approach
-
--CSS Grid & Flexbox for layouts
-
-**What I learned**
-
--How to structure a multi-page React app with clean navigation and dynamic content updates.
-
--Managing state effectively to switch between tabs and update content dynamically.
-
--Advanced Tailwind techniques to handle responsive images and layouts, including using the <picture> element for responsive images.
-
--Implementing smooth interactive UI elements like active states, hover effects, and transitions.
-
-Example code snippet of dynamic tab buttons with active styles:
-
+```jsx
 <button
   key={t.name}
   onClick={() => setActive(t)}
@@ -55,6 +46,7 @@ Example code snippet of dynamic tab buttons with active styles:
 >
   {index + 1}
 </button>
+
 
 **Continued development**
 
