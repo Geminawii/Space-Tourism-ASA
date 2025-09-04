@@ -47,6 +47,7 @@ Here is an example code snippet of dynamic tab buttons with active styles:
   {index + 1}
 </button>
 
+```
 
 ## Continued Development
 
