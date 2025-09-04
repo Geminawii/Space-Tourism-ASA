@@ -48,29 +48,26 @@ Here is an example code snippet of dynamic tab buttons with active styles:
 </button>
 
 
-**Continued development**
+## Continued Development
 
--Improve accessibility (ARIA roles, keyboard navigation) for better inclusivity.
+- Improve accessibility (ARIA roles, keyboard navigation) for better inclusivity.
+- Add animations and transitions for a smoother user experience.
+- Optimize images further for faster loading and performance improvements.
+- Work better with images as backgrounds.
 
--Add animations and transitions for smoother user experience.
+## Useful Resources
 
--Optimize images further for faster loading and performance improvements.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)  
+  Essential for building responsive, utility-first styles.
 
--Work better with images as backgrounds.
+- [React Router Docs](https://reactrouter.com/en/main/start/overview)  
+  Helpful for handling routing in React apps.
 
-**Useful resources**
+- [MDN Web Docs - `<picture>` Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)  
+  Guided me on serving responsive images.
 
-Tailwind CSS Documentation
- — Essential for building responsive, utility-first styles.
+## Author
 
-React Router Docs
- — Helpful for handling routing in React apps.
+**Oluwatiseteminire Coker**  
 
-MDN Web Docs - <picture> Element
- — Guided me on serving responsive images.
-
-
-Author
-
-Website - Oluwatiseteminire Coker
 
